@@ -97,3 +97,4 @@ jobs:
         export KUBECONFIG=~/.kube/config
         kubectl get node
         kubectl rollout restart deploy was 
+        kubectl get svc
